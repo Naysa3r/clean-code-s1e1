@@ -10,20 +10,20 @@
   <body class="page">
 
     <section class="info">
-      <img class="image info-image" src="./eisenhower-matrix.jpg" alt="eisenhower matrix">
-      <a class="more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+      <img class="image info__image" src="./eisenhower-matrix.jpg" alt="eisenhower matrix">
+      <a class="info__more" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </section>
 
     <section class="task-app">
-      <article id="task-app-top">
-        <h3 class="label partition-header new-task-label" for="new-task">Add Item</h3>
-        <div class="task-row-wrapper">
+      <div id="task-app__body">
+        <h3 class="label task-app__header new-task-label" for="new-task">Add Item</h3>
+        <div class="task-app__wrapper">
           <input id="new-task" class="text-input task" type="text">
           <button class="button">Add</button>
         </div>
-      </article>
-      <h3 class="partition-header">Todo</h3>
-      <ul id="incomplete-tasks">
+      </div>
+      <h3 class="task-app__header">Todo</h3>
+      <ul id="task-app__incomplete-tasks">
         <li class="list-item">
           <input class="checkbox" type="checkbox">
           <label class="label task">Pay Bills</label>
@@ -43,8 +43,8 @@
           </button>
         </li>
       </ul>
-      <h3 class="partition-header">Completed</h3>
-      <ul id="completed-tasks">
+      <h3 class="task-app__header">Completed</h3>
+      <ul id="task-app__completed-tasks">
         <li class="list-item">
           <input class="checkbox" type="checkbox" checked>
           <label class="label task">See the Doctor</label>
