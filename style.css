@@ -160,14 +160,14 @@ p > button:hover {
 
 /* Edit Task */
 .list-item .text-input {
-  display:none
+  display: none
 }
 
 .list-item.edit-mode .text-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .list-item.edit-mode .label {
-  display:none;
+  display: none;
 }
